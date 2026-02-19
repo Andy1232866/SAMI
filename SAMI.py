@@ -9,7 +9,7 @@ import face_recognition
 # FUNCIÓN DE CONVERSIÓN
 
 db_pkl = '/home/pi/personas_db.pkl'
-destino = '/home/pi/SAMI/backend/data/reporte.json"
+destino = '/home/pi/SAMI/backend/data/reporte.json'
 
 def generar_reporte_json(archivo_entrada=db_pkl, archivo_salida=destino):
     if not os.path.exists(archivo_entrada):
